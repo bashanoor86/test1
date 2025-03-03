@@ -3,52 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appointment Card - Taj Mahal Visit</title>
+    <title>Welcome to the Latest Vision</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background: linear-gradient(to bottom, rgba(0,0,50,0.8), rgba(0,0,20,0.9)), url('https://source.unsplash.com/1600x900/?full-moon');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/Taj_Mahal_%28Edited%29.jpg') no-repeat center center/cover;
         }
-
-        .card {
-            background: rgba(255, 255, 255, 0.85);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            width: 300px;
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
         }
-
-        .card h2 {
-            margin: 0;
-            color: #333;
+        p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            line-height: 1.5;
         }
-
-        .card p {
-            font-size: 18px;
-            margin: 10px 0;
-            color: #555;
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4444ff;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
         }
-
-        .highlight {
-            font-weight: bold;
-            color: #d32f2f;
+        .button:hover {
+            background: #2222cc;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h2>🏰 Taj Mahal Visit</h2>
-        <p><strong>Name:</strong> <span class="highlight">Noor</span></p>
-        <p><strong>Date:</strong> <span class="highlight">March 5th, 2025</span></p>
-        <p><strong>Gate Number:</strong> <span class="highlight">3</span></p>
-        <p>Enjoy your visit!</p>
-    </div>
+    <h1>We Are into the Latest World for Vision</h1>
+    <p>Exploring the future with clarity and innovation. Join us in discovering the latest trends and advancements.</p>
+    <button class="button">Discover More</button>
 </body>
 </html>
